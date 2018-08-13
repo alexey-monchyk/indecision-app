@@ -1,0 +1,63 @@
+.big-button {
+  box-shadow: 0px 0px 1rem black inset;
+  background: #07040f;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  display: block;
+  font-weight: 300;
+  font-size: 2rem;
+  font-variant: small-caps;
+  font-family: 'Roboto';
+  margin: 0 auto;
+  margin-bottom: $xl-size;
+  padding: 2.4rem 6.4rem;
+}
+
+.big-button:hover {
+  box-shadow: 0 0 2rem pink; 
+}
+
+.big-button:disabled {
+  opacity: .7;
+  box-shadow: none;
+}
+
+// Button 
+.button {
+  border-radius: 0.5rem;
+  background: #07040f;
+  border: none;
+  color: #fff;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: $m-size;
+}
+
+.button--shadow {
+  font-variant: small-caps;
+  box-shadow: 0 0 2rem black inset;
+}
+
+.button--shadow:hover {
+  box-shadow: 0 0 1rem pink; 
+}
+
+.button--link {
+  font-variant: small-caps;
+  border: 0.1rem solid $off-white !important;
+  padding: 0.5rem 1rem !important;
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+}
+
+@media only screen and (max-width: $desktop-breakpoint) {
+  .big-button {
+    margin-bottom: $m-size;
+    padding: 2rem 4.5rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,15 @@
+.option {
+  border-bottom: 0.1rem solid $off-white;
+  display: flex;
+  justify-content: space-between;
+  padding: $l-size $m-size;
+}
+
+.option__text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  font-variant: small-caps;
+  margin: 0;
+  word-break: break-all;
+}

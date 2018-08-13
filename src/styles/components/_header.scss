@@ -1,0 +1,39 @@
+.header {
+  background: url('../../public/images/header-bg.jpg') center no-repeat / cover;
+  width: 100%;
+  margin-bottom: $xl-size;
+  padding: $m-size 0;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 1rem black;
+}
+
+// BEM block element modifier
+.header__title {
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 12rem 0 12rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4rem;
+}
+
+@media only screen and (max-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $m-size;
+  }
+}
+
+@media only screen and (max-width: 53rem) {
+  .header__title {
+    font-size: 1.5rem;
+    letter-spacing: 3rem;
+  }
+}
+
+@media only screen and (max-width: 40rem) {
+  .header__title {
+    letter-spacing: 2rem;
+  }
+}
